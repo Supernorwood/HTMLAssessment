@@ -1,0 +1,74 @@
+
+h2 {
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+}
+
+h4 {
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+}
+
+h5 {
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+}
+
+/*body {
+  background-color: grey;
+}*/
+table {
+    border-style: solid;
+    border-color: black;
+}
+th {
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+}
+ul {
+  list-style-type: square;
+}
+a:hover {
+  background: pink;
+   text-decoration:  none;
+}
+blockquote {
+  background-color: darkblue;
+  color: white;
+  mix-blend-mode: difference;
+}
+#teamRoster > li:first-child {
+  background-image: url(https://i.pinimg.com/originals/a7/d5/a9/a7d5a9f92abb6808a655b7f21bc73e24.png);
+  background-repeat: no-repeat;
+ /*background-size: cover;*/
+ background-size: contain;
+/*background-color: white;*/
+width: 300px;
+/*height: 185px;*/
+/*border: 2px solid;*/
+/*color: black;*/
+/*margin: 1em 0;*/
+}
+ #teamRoster > li:last-child{
+  background-image: url(https://www.drawingtutorials101.com/drawing-tutorials/Sports/NFL/chicago-bears-logo/how-to-draw-Chicago-Bears-Logo-step-0.png);
+background-repeat: no-repeat;
+ /*background-size: cover;*/
+ background-size: contain;
+}
+
+#checkbox-grid {
+  list-style-type: none;
+}
+/*User Story #6
+
+Make each team's image the background image for the list. Hint Check out the element > element and :first-child / :last-child selectors.
